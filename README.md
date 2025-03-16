@@ -1,5 +1,7 @@
 # Bussin.sh
 
+
+
 You can also run the install script as sudo ./install.sh if you want to be able to execute bussin and have the installation script set up your config files. 
 
 **Bussin.sh** is an enhanced Bash script for Linux (tested on Kali) that automates the download, installation, update, and management of various tools. It supports standalone binaries (downloaded from GitHub releases), Git repositories, and APT packages. All configuration files and settings are stored in a dedicated folder (`$HOME/.config/bussin`), allowing Bussin.sh to be run from any directory.
