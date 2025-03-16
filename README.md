@@ -1,6 +1,6 @@
 # Bussin.sh
 
-
+![Bussin](https://github.com/p3ta00/bussin/blob/main/bussin.png)
 
 You can also run the install script as sudo ./install.sh if you want to be able to execute bussin and have the installation script set up your config files. 
 
