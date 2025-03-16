@@ -1,4 +1,4 @@
-# Bussin.sh
+README
 
 ![Bussin](https://github.com/p3ta00/bussin/blob/main/bussin.png)
 
