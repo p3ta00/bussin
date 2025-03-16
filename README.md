@@ -22,8 +22,8 @@
 1. **Clone the Repository:**
 
 ```bash
-git clone https://github.com/yourusername/bussin.git
- cd bussin
+git clone https://github.com/p3ta00/bussin.git
+cd bussin
  ```
 
 ## Usage
