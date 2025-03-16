@@ -21,10 +21,10 @@
 
 1. **Clone the Repository:**
 
-   ```bash
-   git clone https://github.com/yourusername/bussin.git
-   cd bussin
-   ```
+```bash
+git clone https://github.com/yourusername/bussin.git
+ cd bussin
+ ```
 
 ## Usage
 
