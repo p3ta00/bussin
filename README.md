@@ -113,7 +113,7 @@ Install (or re-install) all tools listed in the configuration file:
 *Use the **\--parallel** flag to install tools concurrently:*
 
 ```bash
-bash./bussin.sh -install --parallel
+./bussin.sh -install --parallel
 ```
 
 ### Update All Tools
@@ -123,7 +123,7 @@ Update all non-APT tools (Git and binary downloads):
 *Or update in parallel:*
 
 ```bash
-bash./bussin.sh -update --parallel
+./bussin.sh -update --parallel
 ```
 
 ### Remove a Tool
@@ -131,7 +131,7 @@ bash./bussin.sh -update --parallel
 Remove a tool from the configuration (and optionally its installed files):
 
 ```bash
-bash./bussin.sh -remove linpeas
+./bussin.sh -remove linpeas
 ```
 
 ### List Managed Tools
@@ -143,7 +143,7 @@ Display a list of all tools currently managed by Bussin.sh:
 Update Bussin.sh itself from a predefined remote source:
 
 ```bash
-bash./bussin.sh -selfupdate
+./bussin.sh -selfupdate
 ```
 
 ### Backup & Restore Configuration
@@ -153,7 +153,7 @@ Backup your configuration file:
 Restore your configuration from a backup file:
 
 ```bash
-bash./bussin.sh -restore tools_list.conf.backup_YYYYMMDDHHMMSS
+./bussin.sh -restore tools_list.conf.backup_YYYYMMDDHHMMSS
 ```
 
 ### Enable Verbose Logging
@@ -161,7 +161,7 @@ bash./bussin.sh -restore tools_list.conf.backup_YYYYMMDDHHMMSS
 Add the **\-v** flag to see detailed log output:
 
 ```bash
-bash./bussin.sh -d linux/enumeration/linpeas https://github.com/peass-ng/PEASS-ng/releases/download/20250301-c97fb02a/linpeas.sh -v
+./bussin.sh -d linux/enumeration/linpeas https://github.com/peass-ng/PEASS-ng/releases/download/20250301-c97fb02a/linpeas.sh -v
 ```
 
 ## Configuration File
@@ -178,17 +178,3 @@ tool_name|relative_destination|tool_type|URL_or_package|checksum
 - **URL\_or\_package:** The download URL or APT package name.
 - **checksum:** An optional checksum (currently a stub).
 
-## Contributing
-
-Contributions are welcome! Feel free to open issues or submit pull requests to improve Bussin.sh. Future ideas include full checksum verification, enhanced error handling, and further self-update features.
-
-## License
-
-Distributed under the MIT License. See [LICENSE](https://chatgpt.com/c/LICENSE) for more information.
-
-```
-yaml
----
-
-These two files (the updated **bussin.sh** script and the **README.md**) should give you a robust starting point. Feel free to adjust paths, URLs (especially in the self-update section), and further customize features to suit your needs.
-```
