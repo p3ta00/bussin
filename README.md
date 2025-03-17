@@ -85,13 +85,13 @@ Bussin.sh supports multiple commands and modes. Here are some examples:
 Add a tool by specifying a destination (relative to your current directory) and a URL. An optional tool name can be provided.
 
 ```bash
-bash./bussin.sh -d linux/enumeration/linpeas https://github.com/peass-ng/PEASS-ng/releases/download/20250301-c97fb02a/linpeas.sh
+./bussin.sh -d linux/enumeration/linpeas https://github.com/peass-ng/PEASS-ng/releases/download/20250301-c97fb02a/linpeas.sh
 ```
 
 Or for a Git repository (e.g., pypykatz):
 
 ```bash
-bash./bussin.sh -d linux/enumeration/pypykatz https://github.com/skelsec/pypykatz.git
+./bussin.sh -d linux/enumeration/pypykatz https://github.com/skelsec/pypykatz.git
 ```
 
 #### APT Package
@@ -99,7 +99,7 @@ bash./bussin.sh -d linux/enumeration/pypykatz https://github.com/skelsec/pypykat
 Add an APT package (which will be installed via apt):
 
 ```bash
-bash./bussin.sh -apt nmap
+./bussin.sh -apt nmap
 ```
 
 ### Interactive Mode
